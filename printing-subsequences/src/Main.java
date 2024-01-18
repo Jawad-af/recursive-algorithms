@@ -21,7 +21,7 @@ public class Main {
         array.remove(array.size() - 1);
         printSubsequencesImplementation(index + 1, initArray, array);
     }
-    
+
     public static void printArray(ArrayList<Object> array) {
         Consumer<Object> print = (element) -> System.out.print(element + " ");
         System.out.print("[ ");
